@@ -6,14 +6,17 @@ export default class ProjectCard extends React.Component {
 	render () {
 
 		const divStyle = {
-            color: '#fff',
-            height: '250px',
-            background: `url(${this.props.cardImageUrl}) center / cover`,
+			color: `${this.props.cardTitleColor}`,
+			height: '250px',
+			background: `url(${this.props.cardImageUrl}) center / cover`,
+			backgroundRepeat  : 'no-repeat',
+			backgroundPosition: 'center',
+			backgroundSize:'contain',
         };
 
 		return(
-			<Card shadow={0} style={{width: '350px', margin: 'auto'}}>
-			    <CardTitle style={divStyle}>
+			<Card shadow={0} style={{width: '350px', margin: 'auto', boxShadow: '10px 10px 5px #aaaaaa'}}>
+			    <CardTitle style={divStyle} >
 			    	{this.props.cardTitle}
 			    </CardTitle>
 			    <CardText>

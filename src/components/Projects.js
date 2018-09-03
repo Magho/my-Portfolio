@@ -2,6 +2,8 @@ import React from 'react';
 import { Tabs, Tab, Grid, Cell} from 'react-mdl';
 
 import ReactProjects from './ReactProjects.js';
+import AngularProjects from './AngularProjects.js';
+import NodeProjects from './NodeProjects.js';
 
 export default class Projets extends React.Component {
 
@@ -14,17 +16,9 @@ export default class Projets extends React.Component {
     	if(this.state.activeTab === 0){
     		return <ReactProjects />
     	} else if(this.state.activeTab === 1){
-    		return(
-    			<div>
-    				<h1> This is Angular </h1>
-    			</div>
-    		)
+    		return <AngularProjects />
     	} else if(this.state.activeTab === 2){
-    		return(
-    			<div>
-    				<h1> This is NodeJs </h1>
-    			</div>
-    		)
+    		return <NodeProjects/>
     	}  else if(this.state.activeTab === 3){
     		return(
     			<div>

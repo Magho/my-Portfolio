@@ -3,14 +3,14 @@ import {Grid, Cell} from 'react-mdl';
 
 import ProjectCard from './ProjectCard.js';
 
-export default class ReactProjects extends React.Component {
+export default class AngularProjects extends React.Component {
 
 	render () {
 		return(
 			<Grid className="projects-grid">
         		<Cell col={4}>
 					<ProjectCard 
-						cardImageUrl="https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1"
+						cardImageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6E6hjcJ_pm1xTf1bd9gV1NVlyLYIN_DLq_1cxsjExu4c3Yzb"
 					 	cardTitle="my first project" 
 					 	cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
 					 	cardGithubLink="#"
@@ -21,7 +21,7 @@ export default class ReactProjects extends React.Component {
 				</Cell>
         		<Cell col={4}>
 					<ProjectCard 
-						cardImageUrl="https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1"
+						cardImageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6E6hjcJ_pm1xTf1bd9gV1NVlyLYIN_DLq_1cxsjExu4c3Yzb"
 					 	cardTitle="my first project" 
 					 	cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
 					 	cardGithubLink="#"
@@ -32,7 +32,7 @@ export default class ReactProjects extends React.Component {
 				</Cell>
 				<Cell col={4}>
 					<ProjectCard 
-						cardImageUrl="https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1"
+						cardImageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6E6hjcJ_pm1xTf1bd9gV1NVlyLYIN_DLq_1cxsjExu4c3Yzb"
 					 	cardTitle="my first project" 
 					 	cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
 					 	cardGithubLink="#"
@@ -43,7 +43,7 @@ export default class ReactProjects extends React.Component {
 				</Cell>
 				<Cell col={4}>
 					<ProjectCard 
-						cardImageUrl="https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1"
+						cardImageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6E6hjcJ_pm1xTf1bd9gV1NVlyLYIN_DLq_1cxsjExu4c3Yzb"
 					 	cardTitle="my first project" 
 					 	cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris sagittis pellentesque lacus eleifend lacinia..."
 					 	cardGithubLink="#"
