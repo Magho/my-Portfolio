@@ -24,25 +24,25 @@ export default class Landing extends React.Component {
 							mouthType='Smile'
 							skinColor='Light'
 						/>
-
+						
 						<div className="banner-text">
 							<h1> Full stack web developer </h1>
 							<hr/>
 							<p> HTML/CSS | Bootstrap | JS | Nodejs | Angular | React </p>
-							<div className="social-links">
+							<div className="social-links" >
 
 								{/* Linked In */}
-								<a href="http://google.com" target="_blank">
+								<a href="http://google.com" target="_blank" rel="noopener noreferrer">
 									<i className="fa fa-linkedin-square" aria-hidden="true" />
 								</a>
 
 								{/* Github */}
-								<a href="http://google.com" target="_blank">
+								<a href="http://google.com" target="_blank" rel="noopener noreferrer">
 									<i className="fa fa-github-square" aria-hidden="true" />
 								</a>
 
 								{/* facebook */}
-								<a href="http://google.com" target="_blank">
+								<a href="http://google.com" target="_blank" rel="noopener noreferrer">
 									<i className="fa fa-facebook-square " aria-hidden="true" />
 								</a>
 
