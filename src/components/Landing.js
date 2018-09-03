@@ -7,22 +7,48 @@ export default class Landing extends React.Component {
 		return(
 			<div style={{ width:'100%', margin:'auto' }}> 
 				<Grid className= "landing-color">
-					<Cell col={12} >
+					<Cell col={12}>
+						
 						<Avatar
-						  style={{height:'500px', position :'center'}}
-						  avatarStyle='Circle'
-						  topType='ShortHairShortFlat'
-						  accessoriesType='Blank'
-						  hairColor='Black'
-						  facialHairType='BeardLight'
-						  facialHairColor='Brown'
-						  clotheType='ShirtCrewNeck'
-						  clotheColor='Gray02'
-						  eyeType='Wink'
-						  eyebrowType='Default'
-						  mouthType='Smile'
-						  skinColor='Light'
-						/>					
+							style={{paddingTop:'90px', height:'23em', width:'23em'}}
+							avatarStyle='Circle'
+							topType='ShortHairShortFlat'
+							accessoriesType='Blank'
+							hairColor='Black'
+							facialHairType='BeardLight'
+							facialHairColor='Brown'
+							clotheType='ShirtCrewNeck'
+							clotheColor='Gray02'
+							eyeType='Wink'
+							eyebrowType='Default'
+							mouthType='Smile'
+							skinColor='Light'
+						/>
+
+						<div className="banner-text">
+							<h1> Full stack web developer </h1>
+							<hr/>
+							<p> HTML/CSS | Bootstrap | JS | Nodejs | Angular | React </p>
+							<div className="social-links">
+
+								{/* Linked In */}
+								<a href="http://google.com" target="_blank">
+									<i className="fa fa-linkedin-square" aria-hidden="true" />
+								</a>
+
+								{/* Github */}
+								<a href="http://google.com" target="_blank">
+									<i className="fa fa-github-square" aria-hidden="true" />
+								</a>
+
+								{/* facebook */}
+								<a href="http://google.com" target="_blank">
+									<i className="fa fa-facebook-square " aria-hidden="true" />
+								</a>
+
+							</div>
+						</div>
+
 					</Cell>
 				</Grid>
 			</div>
