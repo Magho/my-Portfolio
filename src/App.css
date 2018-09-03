@@ -59,4 +59,5 @@
 
 .projects-grid {
 	text-align: center;
+	display: flex;
 }
