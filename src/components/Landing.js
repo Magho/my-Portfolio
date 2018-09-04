@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
-	import Avatar from 'avataaars';
+import Avatar from 'avataaars';
 
 export default class Landing extends React.Component {
 	render(){
