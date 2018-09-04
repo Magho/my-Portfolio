@@ -5,12 +5,12 @@ import Avatar from 'avataaars';
 export default class Landing extends React.Component {
 	render(){
 		return(
-			<div style={{ width:'100%', margin:'auto' }}> 
+			<div className="mainContainer" style={{ width:'100%', margin:'auto' }}> 
 				<Grid className= "landing-color">
 					<Cell col={12}>
 						
 						<Avatar
-							style={{paddingTop:'90px', height:'23em', width:'23em'}}
+							style={{paddingTop:'60px', height:'23em', width:'23em'}}
 							avatarStyle='Circle'
 							topType='ShortHairShortFlat'
 							accessoriesType='Blank'

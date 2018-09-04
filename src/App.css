@@ -13,10 +13,12 @@
 	background: -webkit-linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
+	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
 }
 
 .banner-text {
@@ -66,11 +68,13 @@
 
 /* contact page style */
 .contact-body {
-	margin: auto;
-	width: 100%;
-	height: 100%;
 	justify-content: center;
-	padding-top: 2em;
+  	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: auto;
+	padding-top: 5em;
 }
 
 .contact-grid{
@@ -109,4 +113,18 @@
 .contact-list i {
 	font-size: 66px;
 	padding-right: 5rem;
+}
+
+
+/* Resume page style */
+
+.resume-right-side {
+	background: #27221f;
+	color: white;
+	padding-left: 2em;
+}
+
+.resume-main-div {
+	justify-content: center;
+	text-align: center;
 }
