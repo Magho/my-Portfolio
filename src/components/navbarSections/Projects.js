@@ -1,9 +1,9 @@
 import React from 'react';
 import { Tabs, Tab, Grid, Cell} from 'react-mdl';
 
-import ReactProjects from './ReactProjects.js';
-import AngularProjects from './AngularProjects.js';
-import NodeProjects from './NodeProjects.js';
+import ReactProjects from '../projectsSections/ReactProjects.js';
+import AngularProjects from '../projectsSections/AngularProjects.js';
+import NodeProjects from '../projectsSections/NodeProjects.js';
 
 export default class Projets extends React.Component {
 

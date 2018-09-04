@@ -1,17 +1,17 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Avatar from 'avataaars';
-import Education from './Education.js';
-import Experience from './Experience.js';
-import Skills from './Skills.js';
+import Education from '../ResumeSections/Education.js';
+import Experience from '../ResumeSections/Experience.js';
+import Skills from '../ResumeSections/Skills.js';
 
 export default class Resume extends React.Component {
 	render(){
 		return(
 			<div> 
 				<Grid>
-					<Cell col={4}>
-						<div className="resume-main-div">
+					<Cell >
+						<div className="resume-left-side">
 							<Avatar
 								style={{paddingTop:'30px', height:'20em'}}
 								avatarStyle='Circle'
